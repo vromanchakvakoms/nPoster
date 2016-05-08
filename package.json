@@ -1,0 +1,22 @@
+{
+  "name": "nposter",
+  "version": "1.0.0",
+  "description": "social poster",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devjet/nPoster.git"
+  },
+  "author": "devjet",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/devjet/nPoster/issues"
+  },
+  "homepage": "https://github.com/devjet/nPoster#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
