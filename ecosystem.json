@@ -19,7 +19,7 @@
       repo : "git@github.com:devjet/nPoster.git",
       path : "/home/nposter/daemon",
       "pre-deploy-local" : "echo 'This is a local executed command'",
-      "post-deploy" : 'cp -f "../../ecosystem.json ./ecosystem.json" && install && pm2 startOrRestart ecosystem.json --env production'
+      "post-deploy" : "'cp -f ../../ecosystem.json ./ecosystem.json' && install && pm2 startOrRestart ecosystem.json --env production"
     },
     dev : {
       user : "node",
