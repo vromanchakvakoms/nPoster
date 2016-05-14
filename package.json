@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/devjet/nPoster#readme",
   "dependencies": {
-    "express": "^4.13.4"
+    "bluebird": "^3.3.5",
+    "express": "^4.13.4",
+    "mongojs": "^2.4.0",
+    "promised-mongo": "^1.2.0",
+    "twit": "^2.2.4",
+    "vksdk": "^5.3.1"
   }
 }
