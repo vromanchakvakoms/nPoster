@@ -13,17 +13,17 @@
   ],
   deploy : {
     production : {
-      user : "root",
-      host : "vds1.aplus.space",
+      user : "",
+      host : "",
       ref  : "origin/master",
       repo : "git@github.com:devjet/nPoster.git",
       path : "/home/nposter/daemon",
       "pre-deploy-local" : "echo 'This is a local executed command'",
-      "post-deploy" : "cp -f ../../ecosystem.json ./ecosystem.json && npm install && pm2 startOrRestart ecosystem.json --env production"
+      "post-deploy" : "npm install && pm2 startOrRestart ecosystem.json --env production"
     },
     dev : {
       user : "node",
-      host : "212.83.163.1",
+      host : "211.83.113.1",
       ref  : "origin/master",
       repo : "git@github.com:devjet/nPoster.git",
       path : "/var/www/development",
